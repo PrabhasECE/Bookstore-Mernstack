@@ -13,7 +13,7 @@ const Home = () => {
     useEffect(() => {
         setLoading(true);
         axios
-            .get('https://mernstack-bookstore.onrender.com/books')
+            .get('https://bookstore-mernstack-gx4f.onrender.com/books')
             .then((response) => {
                 setBooks(response.data.data);
                 setLoading(false);

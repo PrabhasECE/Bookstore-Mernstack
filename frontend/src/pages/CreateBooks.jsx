@@ -20,7 +20,7 @@ const CreateBooks = () => {
             publishYear
         };
         setLoading(true);
-       fetch('https://mernstack-bookstore.onrender.com/books', {
+       fetch('https://bookstore-mernstack-gx4f.onrender.com/books', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
